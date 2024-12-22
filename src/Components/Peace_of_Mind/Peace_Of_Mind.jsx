@@ -7,7 +7,7 @@ const Peace_Of_Mind = () => {
         className="container-fluid text-center mt-5"
         style={{
           background:
-            "linear-gradient(135deg,rgb(180, 234, 241),rgb(255, 255, 255))",
+            "linear-gradient(135deg,rgb(194, 237, 242),rgb(248, 217, 217))",
         }}
       >
         <h1>Your Peace of Mind</h1>
@@ -17,7 +17,7 @@ const Peace_Of_Mind = () => {
         </h3>
         <div className="col-md-12 d-flex justify-content-center mt-3">
             <button
-              className="btn btn-primary fw-bold w-50 btn-lg"
+              className="btn btn-primary fw-bold w-50 btn-lg mb-5"
               style={{
                 borderRadius: "50px",
               }}
