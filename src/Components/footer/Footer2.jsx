@@ -76,14 +76,14 @@ const Footer2 = () => {
               </div>
               <div
                 style={{
-                  display: "flex",
-                  justifyContent: "space-around",
+                  display:"flex",
+                  
                   width: "100%",
                   marginTop: "10px",
                 }}
               >
                 <i className="bi bi-instagram fs-2"></i>
-                <i className="bi bi-linkedin fs-2 "></i>
+                <i className="bi bi-linkedin fs-2 "  style={{marginLeft:"21%"}}></i>
               </div>
             </div>
           </div>
