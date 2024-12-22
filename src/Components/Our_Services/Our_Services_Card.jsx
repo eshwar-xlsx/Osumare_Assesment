@@ -22,13 +22,13 @@ const services = [
   },
   {
     id: 4,
-    image: "./assets/card-3.png",
+    image: "./assets/Vector (1).png",
     header: "Tailored Solutions",
     text: "Lorem ipsum dolor",
   },
   {
     id: 5,
-    image: "./assets/card-3.png",
+    image: "./assets/Video.png",
     header: "Strategic Planning",
     text: "Lorem ipsum dolor",
   },
@@ -40,7 +40,7 @@ const services = [
   },
   {
     id: 7,
-    image: "./assets/card-3.png",
+    image: "./assets/Vector.png",
     header: "Tech Connections",
     text: "Lorem ipsum dolor",
   },
@@ -55,7 +55,7 @@ const services = [
 const Our_Services_Card = () => {
   return (
     <div className="services-container">
-      <div className="row g-4">
+      <div className="row g-2">
         {services.map((service) => (
           <div className="col-md-3" key={service.id}>
             <div className="service-card">

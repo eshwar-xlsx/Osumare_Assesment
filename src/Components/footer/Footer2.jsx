@@ -16,8 +16,9 @@ const Footer2 = () => {
 
           <div className="col-md-4">
             <img src="./assets/logo.png" alt="" />
-            <h5 className="mt-5">
-              The best digital marketing agency in Pune with a proven track
+           <div className='text-center'>
+           <h5 className="mt-5">
+              The best digital marketing agency in Pune <br></br> with a proven track
               record of consistently delivering quality service.
             </h5>
             <h3 className="fw-bolder mt-4">ADDRESS</h3>
@@ -34,6 +35,7 @@ const Footer2 = () => {
             <i class="bi bi-telephone-fill fs-4 me-2"></i>
             <span className="fs-4">+91 8459 8762 26</span>
           </div>
+           </div>
           <div className="col-md-4 text-center ">
             <h2 className="fw-bold mb-4">MENU</h2>
             <div
