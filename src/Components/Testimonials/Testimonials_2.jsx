@@ -37,7 +37,7 @@ const Testimonials_2 = () => {
                 style={{ fontSize: "34px" }}
               ></i>
             </div>
-            <p className="mb-0 h3 fs-2 mt-5">
+            <p className="mb-0 h3 fs-2 mt-5 mb-5">
               <i className="fas fa-quote-left"></i> Osumare's expertise in
               pharma marketing is unparalleled. Their strategies helped us
               navigate complex regulations while driving remarkable growth.{" "}
@@ -51,8 +51,8 @@ const Testimonials_2 = () => {
             className="btn  btn-lg me-3 px-4 py-3"
             style={{
               fontSize: "24px",
-              width: "80px",
-              height: "80px",
+              width: "100px",
+              height: "100px",
               borderRadius: "50%",
             }}
           >

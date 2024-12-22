@@ -36,9 +36,9 @@ const services = [
 const Digital_Landscape_Card = () => {
   return (
     <div className=" py-4">
-      <div className="row justify-content-center">
+      <div className="row ">
         {services.map((service) => (
-          <div className="col-12 col-md-10 mb-4" key={service.id}>
+          <div className="col-12 col-sm-12 col-md-10 mb-4 d-flex justify-content-center align-items-center" key={service.id}>
             <div className="card shadow-lg w-75">
               <div className="card-body d-flex ">
                 {/* Image on the left side */}
