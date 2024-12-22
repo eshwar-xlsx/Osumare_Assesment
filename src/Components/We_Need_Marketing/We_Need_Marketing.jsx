@@ -7,14 +7,18 @@ const We_Need_Marketing = () => {
         Elevate <span className="text-primary">Real Estate Success</span> with{" "}
         <br /> Osumare's Digital Expertise
       </p>
-      <h1 className="text-center">
-        <button
-          className="text-center btn btn-primary mb-5  mt-3 fw-bold p-2 fs-5"
-          style={{ width: "440px", borderRadius: "30px" }}
-        >
-          Get Started
-        </button>
-      </h1>
+      <div>
+      <div className="col-md-12 d-flex justify-content-center">
+          <button
+            className="btn btn-primary fw-bold w-50 btn-lg mb-5"
+            style={{
+              borderRadius:"50px"
+            }}
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
 
       <div className="text-center">
         {" "}

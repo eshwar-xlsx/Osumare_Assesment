@@ -4,7 +4,7 @@ const Testimonials_2 = () => {
   return (
     <>
       <div className="container ">
-        <div className="row shadow-lg ">
+        <div className="row shadow-lg  ">
           <div className="col-md-12 text-center mb-5">
             <h1 className="text-center mt-5 fw-bold" style={{fontFamily:"Montessart"}}>What Our Pharma Partner Says</h1>
             <h3 className="text-black-50"> Hear from Our Partners</h3>

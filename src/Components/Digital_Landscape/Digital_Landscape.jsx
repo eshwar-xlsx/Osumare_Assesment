@@ -6,11 +6,11 @@ const Digital_Landscape = () => {
     <>
       <div className="container-fluid  p-4">
         <div className="row">
-          <div className="col-md-12 text-center mt-5 ms-5">
-            <h1>Navigating Real Estate's Digital Landscape</h1>
-            <h3 className='text-black-50'>Insights for Real Estate Marketing Advantage</h3>
+          <div className="col-md-12 mt-5 ">
+            <h1 className='text-center'>Navigating Real Estate's Digital Landscape</h1>
+            <h3 className='text-black-50 text-center'>Insights for Real Estate Marketing Advantage</h3>
           </div>
-          <div className="col-md-6 d-flex flex-column justify-content-start align-items-start  mt-4">
+          <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-start align-items-start  mt-4">
             <Digital_Landscape_Card />
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center">

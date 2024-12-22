@@ -31,8 +31,13 @@ const Digital_Mastery = () => {
             digital property market.
           </h4>
 
-          <div className="mt-5">
-            <button className="btn btn-primary btn-lg w-50 " style={{borderRadius:"40px"}}>
+          <div className="col-md-12 d-flex justify-content-center mt-3">
+            <button
+              className="btn btn-primary fw-bold w-50 btn-lg"
+              style={{
+                borderRadius: "50px",
+              }}
+            >
               Get Started
             </button>
           </div>

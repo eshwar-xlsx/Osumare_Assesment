@@ -1,12 +1,14 @@
 import React from "react";
-import './form.css';
+import "./form.css";
 
 const Form = () => {
   return (
     <div className="form-maincontainer">
       <div className="row text-center">
         <div className="col-md-12">
-          <h1 className="form-title">Connect with Our Digital Marketing Expert</h1>
+          <h1 className="form-title">
+            Connect with Our Digital Marketing Expert
+          </h1>
           <h4 className="form-description">
             Reach out for tailored strategies and results-driven solutions.
             <br />
@@ -63,8 +65,13 @@ const Form = () => {
                     </div>
                   </div>
                   {/* Submit Button */}
-                  <div className="col-md-12 text-center">
-                    <button className="btn btn-primary fw-bold form-btn mt-4">
+                  <div className="col-md-12 d-flex justify-content-center mt-3">
+                    <button
+                      className="btn btn-primary fw-bold w-50 btn-lg"
+                      style={{
+                        borderRadius: "50px",
+                      }}
+                    >
                       Get Started
                     </button>
                   </div>

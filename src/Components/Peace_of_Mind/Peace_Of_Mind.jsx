@@ -15,16 +15,16 @@ const Peace_Of_Mind = () => {
         Through our conversion-focused strategies, we ensure that property <br/> seekers are not just visitors, but engaged prospects ready to make <br/> their next move in the real estate market
 
         </h3>
-        <button
-          className="text-center btn btn-primary mb-5 mt-5 fw-bold p-2 fs-5"
-          style={{
-            width: "100%", // Make it responsive by default
-            maxWidth: "440px", // Restrict maximum width for larger screens
-            borderRadius: "30px",
-          }}
-        >
-          Get Started
-        </button>
+        <div className="col-md-12 d-flex justify-content-center mt-3">
+            <button
+              className="btn btn-primary fw-bold w-50 btn-lg"
+              style={{
+                borderRadius: "50px",
+              }}
+            >
+              Get Started
+            </button>
+          </div>
       </div>
     </>
   );
