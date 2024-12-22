@@ -1,9 +1,16 @@
 import React from "react";
-import './Footer2.css'
+import "./Footer2.css";
 const Footer2 = () => {
   return (
     <>
-      <div className="container"  >
+      <div
+        className="container"
+        style={{
+          background:
+            "linear-gradient(135deg, rgb(244, 247, 247), rgb(192, 237, 243))",padding:"10px"
+        }}
+      >
+       
         <div className="row">
           <div className="col-md-12 mt-5"></div>
 
@@ -28,7 +35,7 @@ const Footer2 = () => {
             <span className="fs-4">+91 8459 8762 26</span>
           </div>
           <div className="col-md-4 text-center ">
-            <h2 className="fw-bold mb-4">Home</h2>
+            <h2 className="fw-bold mb-4">MENU</h2>
             <div
               className="fs-4 text-black"
               style={{
@@ -38,7 +45,7 @@ const Footer2 = () => {
                 gap: "20px",
               }}
             >
-              <div>MENU</div>
+              <div>Home</div>
               <div>About</div>
               <div>Services</div>
               <div>Blogs</div>
@@ -69,8 +76,8 @@ const Footer2 = () => {
               </div>
               <div
                 style={{
-                  display:"flex",
-                  justifyContent:"space-around",
+                  display: "flex",
+                  justifyContent: "space-around",
                   width: "100%",
                   marginTop: "10px",
                 }}
