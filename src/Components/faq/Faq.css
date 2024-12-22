@@ -1,0 +1,38 @@
+.maincontainer {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.accordion-container {
+  width: 100%;
+  max-width: 700px; 
+  margin: 0 auto; 
+}
+
+.accordion {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+  font-weight: bold;
+  background-color: white; 
+  color: black;
+  font-size: 1rem; 
+  padding: 15px; 
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover, .accordion-button.active {
+  background-color: #007bff; 
+  color: white;
+}
+
+.accordion-body {
+  text-align: left;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+}

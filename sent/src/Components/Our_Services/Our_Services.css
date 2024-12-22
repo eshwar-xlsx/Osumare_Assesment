@@ -1,0 +1,129 @@
+/* Container styling */
+.services-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Card Styling */
+.service-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: auto; /* Adjust height dynamically */
+    width: 100%; /* Adjust width on smaller screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem; /* Add spacing between cards */
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.card-icon {
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.icon-img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Text styling */
+.service-text {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+.button-single {
+    width: 50%; /* Default for medium screens */
+    margin: 0 auto; /* Center align on smaller screens */
+  }
+
+/* Responsive Design */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .services-container {
+        padding: 1.5rem;
+    }
+    .button-single {
+        width: 70%; /* Adjust width for tablets */
+        font-size: 1rem; /* Adjust font size for smaller devices */
+      }
+    
+
+    .service-card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .card-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .service-text {
+        font-size: 0.85rem;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 576px) {
+    .services-container {
+        padding: 1rem;
+    }
+    .button-single {
+        width: 120%; /* Full width for mobile devices */
+        
+      }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .col-md-3 {
+        flex: 1 1 calc(100% - 2rem); /* Full-width cards for mobile */
+    }
+
+    .service-card {
+        padding: 1rem;
+    }
+
+    .card-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .service-text {
+        font-size: 0.85rem;
+    }
+}

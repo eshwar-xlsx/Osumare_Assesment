@@ -1,0 +1,85 @@
+/* Card Styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; /* Default width */
+  padding: 20px;
+  border-radius: 8px; /* Slightly rounder corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border: none; /* Removed border for cleaner look */
+  background-color: #ffffff; /* Bright background */
+  margin: 20px auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+
+
+/* Tablets (768px) */
+@media (max-width: 768px) {
+  .card {
+    width: 90%; 
+    margin: 15px auto;
+    padding: 18px;
+  }
+  .card-image {
+    height: 120px; 
+  }
+  .card-image img {
+    border-radius: 4px; 
+  .card-content h3 {
+    font-size: 1.4rem;
+  }
+  .card-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Phones (480px) */
+@media (max-width: 480px) {
+  .card {
+    width: 100%; 
+    padding: 15px;
+    margin: 10px 0;
+  }
+  .card-image {
+    height: 100px; 
+  }
+  .card-image img {
+    border-radius: 3px; 
+  }
+  .card-content h3 {
+    font-size: 1.2rem;
+  }
+  .card-content p {
+    font-size: 0.85rem;
+  }
+}
+
+
+.card-wrapper {
+  margin: 0 -10px; 
+}
+
+.card-wrapper .card {
+  margin: 10px; 
+}
+}
